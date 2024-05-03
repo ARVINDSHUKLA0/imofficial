@@ -128,7 +128,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <img src="//assets/img/banner.jpeg" alt="banner " className="w-100 banner-img" />
+                        <img src="/assets/img/banner.jpeg" alt="banner " className="w-100 banner-img" />
                     </div>
                 </div>
 
@@ -141,7 +141,7 @@ const Home = () => {
                     <p className="text-white aristocratice-paragraph">Aristocratice empowers you to express your regal spirt without sacrificing comfort Don the crown <br /> not literally, but with the effortless confidence that come form knowing you're impeccably dressed</p>
                 </div>
                 <div>
-                    <img src="//assets/img/banner-2.jpeg" alt="banner-2" className="banner-2-img " />
+                    <img src="/assets/img/banner-2.jpeg" alt="banner-2" className="banner-2-img " />
 
                 </div>
             </section>
@@ -151,12 +151,12 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 pt-2 p-1">
                             <div className="custom-border-right ">
-                                <img src="assets/img/t-shirt-black.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/t-shirt-black.jpeg" alt="" className="img-fluid width-img" />
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 custom-margin pt-2 p-1">
                             <div className="custom-border-left position-relative">
-                                <img src="assets/img/car-1.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/car-1.jpeg" alt="" className="img-fluid width-img" />
                                 <div className="images-inner-border">
                                     <div className="images-inner-text">
                                         <h4 className="text-white text-uppercase sm-size-text">achi30 aston martion</h4>
@@ -283,7 +283,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                             <div>
-                                <img src="public\assets\img\blogs-1.png" alt="" className="w-100" />
+                                <img src="/assets/img/blogs-1.png" alt="" className="w-100" />
                             </div>
                             <div className="">
                                 <p className="text-white blogs-centent pt-4 ">Welcome to the world of imofficial clothing where tradition meets modemity and scphistication </p>
@@ -291,7 +291,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                             <div>
-                                <img src="public\assets\img\blogs-2.png" alt="" className="w-100    " />
+                                <img src="/assets/img/blogs-2.png" alt="" className="w-100    " />
                             </div>
                             <div>
                                 <p className="text-white blogs-centent pt-4">knows no bounds, with IMMOFFCIAL, every stitch tells a story of opulence and refinement destined to</p>
@@ -299,7 +299,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                             <div>
-                                <img src="public\assets\img\blogs-3.png" alt="" className="w-100" />
+                                <img src="/assets/img/blogs-3.png" alt="" className="w-100" />
                             </div>
                             <div>
                                 <p className="text-white blogs-centent pt-4">transcend trends and become an enduring symbol of enduring style. jion us as we redefine lxury</p></div>

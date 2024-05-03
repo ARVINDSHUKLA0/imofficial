@@ -8,7 +8,7 @@ const Home = () => {
             <nav>
                 <div className="d-flex justify-content-between navbar px-4 ">
                     <div className="">
-                        <img className="w-25" src="public/assets/img/logo.png" alt="" />
+                        <img className="w-25" src="/assets/img/logo.png" alt="" />
                     </div>
                     <div>
                         <ul className="d-flex p-0 m-0 gap-3">
@@ -120,7 +120,7 @@ const Home = () => {
                 <div>
                     <div>
                         <div className="banner-center-logo">
-                            <img src="public/assets/img/banner-center-logo.png" alt="" />
+                            <img src="/assets/img/banner-center-logo.png" alt="" />
                         </div>
                         <div className="banner-center-text">
                             <h1 className="text-white imofficial-text">imofficial</h1>
@@ -128,7 +128,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <img src="/public/assets/img/banner.jpeg" alt="banner " className="w-100 banner-img" />
+                        <img src="//assets/img/banner.jpeg" alt="banner " className="w-100 banner-img" />
                     </div>
                 </div>
 
@@ -141,7 +141,7 @@ const Home = () => {
                     <p className="text-white aristocratice-paragraph">Aristocratice empowers you to express your regal spirt without sacrificing comfort Don the crown <br /> not literally, but with the effortless confidence that come form knowing you're impeccably dressed</p>
                 </div>
                 <div>
-                    <img src="/public/assets/img/banner-2.jpeg" alt="banner-2" className="banner-2-img " />
+                    <img src="//assets/img/banner-2.jpeg" alt="banner-2" className="banner-2-img " />
 
                 </div>
             </section>
@@ -175,7 +175,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 custom-margin pt-2 p-1">
                             <div className="custom-border-left position-relative">
-                                <img src="public/assets/img/car-2.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/car-2.jpeg" alt="" className="img-fluid width-img" />
                                 <div className="images-inner-border">
                                     <div className="images-inner-text">
                                         <h4 className="text-white text-uppercase sm-size-text">achi30 aston martion</h4>
@@ -187,7 +187,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 pt-2 p-1">
                             <div className="custom-border-right">
-                                <img src="public/assets/img/t-shart-brown.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/t-shart-brown.jpeg" alt="" className="img-fluid width-img" />
                             </div>
                         </div>
 
@@ -200,12 +200,12 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 pt-2 p-1">
                             <div className="custom-border-right">
-                                <img src="public/assets/img/t-shart-white.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/t-shart-white.jpeg" alt="" className="img-fluid width-img" />
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 custom-margin pt-2 p-1">
                             <div className="custom-border-left position-relative">
-                                <img src="public/assets/img/horse.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/horse.jpeg" alt="" className="img-fluid width-img" />
                                 <div className="images-inner-border">
                                     <div className="images-inner-text">
                                         <h4 className="text-white text-uppercase sm-size-text">achi30 aston martion</h4>
@@ -224,7 +224,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 custom-margin pt-2 p-1">
                             <div className="custom-border-left position-relative">
-                                <img src="public/assets/img/diamond.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/diamond.jpeg" alt="" className="img-fluid width-img" />
                                 <div className="images-inner-border">
                                     <div className="images-inner-text">
                                         <h4 className="text-white text-uppercase sm-size-text">achi30 aston martion</h4>
@@ -236,7 +236,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 pt-2 p-1">
                             <div className="custom-border-right">
-                                <img src="public/assets/img/t-shart-blue.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/t-shart-blue.jpeg" alt="" className="img-fluid width-img" />
                             </div>
                         </div>
 
@@ -249,12 +249,12 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 pt-2 p-1">
                             <div className="custom-border-right">
-                                <img src="public/assets/img/t-shart-blue.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/t-shart-blue.jpeg" alt="" className="img-fluid width-img" />
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 gap-3 custom-margin pt-2 p-1">
                             <div className="custom-border-left position-relative">
-                                <img src="public/assets/img/watches.jpeg" alt="" className="img-fluid width-img" />
+                                <img src="/assets/img/watches.jpeg" alt="" className="img-fluid width-img" />
                                 <div className="images-inner-border">
                                     <div className="images-inner-text">
                                         <h4 className="text-white text-uppercase sm-size-text">achi30 aston martion</h4>
@@ -270,7 +270,7 @@ const Home = () => {
 
             <section>
                 <div className="main-viedo">
-                    <video autoPlay muted loop src="public/assets/img/viedo.mp4"></video>
+                    <video autoPlay muted loop src="/assets/img/viedo.mp4"></video>
                 </div>
             </section>
 

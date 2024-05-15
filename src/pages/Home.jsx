@@ -1,14 +1,19 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
+import Navbar from "../component/Navbar"
 
 const Home = () => {
     const [sidebarActive, setSidebarActive] = useState(false)
 
     return (
         <>
-            <nav>
+        <Navbar pageName="Home"/>
+            {/* <nav>
                 <div className="d-flex justify-content-between navbar px-4 ">
                     <div className="">
+                        <Link to="/">
                         <img className="w-25" src="/assets/img/logo.png" alt="" />
+                        </Link> 
                     </div>
                     <div>
                         <ul className="d-flex p-0 m-0 gap-3">
@@ -73,49 +78,8 @@ const Home = () => {
                     </div>
 
                 </div>
-            </aside>
-            {/* <aside className="sidebar-container">
-                <div className={` sidebar-wrapper ${sidebarActive ? "sidebar-active" : ""}`}>
-                    <div>
-                        <ul className="d-flex justify-content-end  gap-4 sidebar-ul ">
-                            <li>
-                                <a className="text-dark" href="#"><i className="fa-regular fa-heart"></i></a>
-                            </li>
-                            <li>
-                                <a className="text-dark" href="#"><i className="fa-solid fa-cart-shopping"></i></a>
-                            </li>
-                            <li onClick={() => { setSidebarActive(!sidebarActive) }}>
-                                <a className="text-dark" href="#"><i className="fa-solid fa-bars"></i></a>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div className="sidebar-margin-top">
-                        <ul className="m-0">
-                            <li className="mt-4">
-                                <a className="text-uppercase text-decoration-none text-dark sidebar-text" href="#">home</a>
-                            </li>
-                            <li className="mt-4">
-                                <a className="text-uppercase text-decoration-none text-dark sidebar-text" href="#">lisfestyle</a>
-                            </li>
-                            <li className="mt-4">
-                                <a className="text-uppercase text-decoration-none text-dark sidebar-text" href="#">accessories</a>
-                            </li>
-                            <li className="mt-4">
-                                <a className="text-uppercase text-decoration-none text-dark sidebar-text" href="#">customization</a>
-                            </li>
-                            <li className="mt-4">
-                                <a className="text-uppercase text-decoration-none text-dark sidebar-text" href="#">about us</a>
-                            </li>
-                            <li className="mt-4">
-                                <a className="text-uppercase text-decoration-none text-dark sidebar-text" href="#">contact us</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </aside> */}
-
+            </aside>  */}
+             
             <section className="banner-wrapper ">
                 <div>
                     <div>
@@ -161,7 +125,7 @@ const Home = () => {
                                     <div className="images-inner-text">
                                         <h4 className="text-white text-uppercase sm-size-text">achi30 aston martion</h4>
                                         <h4 className="text-white text-uppercase sm-size-text">edition color</h4>
-                                        <button className="text-white text-uppercase border-0 custom-shape-btn">shop now</button>
+                                        <Link to="product/1" className="text-white text-uppercase border-0 custom-shape-btn">shop now</Link>
                                     </div>
                                 </div>
                             </div>

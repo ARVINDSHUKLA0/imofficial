@@ -19,7 +19,7 @@ const ProductDetailPage = () => {
                         <div className="col-lg-8 col-md-8 col-sm-12 col-12">
                             <div className="row mx-2">
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-12 mb-1 p-1 ">
-                                    <img src="/public/assets/img/product.png" className='img-fluid ' alt="" />
+                                    <img src="/assets/img/product.png" className='img-fluid ' alt="" />
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-12 mb-1 p-1">
                                     <img src="/assets/img/product.png" className='img-fluid' alt="" />

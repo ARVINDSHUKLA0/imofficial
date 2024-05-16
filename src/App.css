@@ -185,7 +185,7 @@
 
   
   @media(min-width: 0px) and (max-width: 425px) {
-  
+     
     .banner-wrapper {
         overflow: hidden;
         position: relative;
@@ -529,6 +529,9 @@
 @media(min-width: 0px) and (max-width: 525px) {
   .custam-width{
     width: 300px;
+  }
+  .sm-size-padding{
+      padding-left: 20px;
   }
   .img-width{
     width: 95%;

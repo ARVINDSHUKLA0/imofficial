@@ -16,6 +16,10 @@
     ---color-Maroon:#470000;
     --color:#1b1b1d;
     --color:gray;
+    --bg-color-maroom-light:#9D5248;
+    --color-maroom-light:#9D5248;
+    --bg-color-light:#EEEAE5;
+    --bg-color-Pearl-white:#eeeae5cc;
   }
   .custom-background-color{
     background-color: var(--bg-color-black);
@@ -425,3 +429,128 @@
  .sidebar-ul{
   padding: 20px 25px;
  }
+
+ /* about start */
+  .Landry-iner-img{
+    width: 60px;
+    padding-left: 2px;
+  }
+.landry-text{
+  font-size: 19px;
+  font-weight: 400;
+}
+.main-color{
+  background-color: var(--bg-color-Pearl-white);
+}
+.text-size{
+  font-size: 15px;
+}
+.border-img{
+  border:1px solid var(--color-maroom-light);
+}
+.custam-width{
+  width: 96%;
+}
+.custam-width-border{
+  border-top: 1px solid var(--color-maroom-light);
+}
+.custam-border-maroom{
+    border: 1px solid var(--bg-color-Maroon);
+}
+.text-clor-maroom{
+   color: var(--color-maroom-light);
+}
+.bg-clor-maroom{
+  background-color: var(--bg-color-maroom-light);
+}
+ 
+.new-custam-width-one{
+  width: 1% ;
+}
+.new-custam-width-two{
+  width: 97%;
+}
+.new-custam-width-three{
+  width: 1%;
+}
+.img-width{
+  width: 60%;
+  margin:30px 0px;
+}
+.text-recommendations{
+  font-weight: 400;
+  font-size: 25px;
+}
+.text-look{
+  font-style: italic;
+  font-weight: 400;
+}
+.owl-carousel{
+  background-color: var(--bg-color-light);
+}
+.owl-carousel-postion{
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 20px;
+}
+.catgery-bg-color{
+  background-color: var(--bg-color-light);
+}
+.small-img{
+  padding: 0px 1px ;
+}
+@media(min-width: 0px) and (max-width: 525px) {
+  .custam-width{
+    width: 300px;
+  }
+  .img-width{
+    width: 95%;
+    /* margin:0px 10px; */
+  }
+ .owl-carousel-postion{
+  position: absolute;
+  bottom: 0px;
+ padding-bottom: 10px;
+ }
+ .custam-width{
+  width: 96%;
+}
+.sm-padding{
+  padding: 0px 20px;
+}
+
+}
+
+@media(min-width: 526px) and (max-width:768px) {
+  .img-width{
+    width: 80%;
+  }
+  .owl-carousel-postion{
+    position: absolute;
+    bottom: 0px;
+   padding-bottom: 10px;
+   }
+   .text-look-margin{
+    margin-top: 40px;
+    margin-bottom:60px;
+  }
+}
+@media(min-width: 769px) and (max-width:1024px) {
+  .owl-carousel-postion{
+    position: absolute;
+    bottom: 0px;
+   padding-bottom: 0px;
+   }
+   .text-look-margin{
+    margin-top: 70px;
+    margin-bottom: 90px;
+  }
+}
+
+@media(min-width: 1025px) and (max-width:1440px) {
+  .text-look-margin{
+    margin-top: 70px;
+    margin-bottom: 90px;
+  }
+}
+

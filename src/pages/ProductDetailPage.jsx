@@ -41,8 +41,8 @@ const ProductDetailPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-12 col-12 sm-size-padding">
-                            <div className='custam-width'>
+                        <div className="col-lg-4 col-md-4 col-sm-12 col-12 sm-size-padding ">
+                            <div className='custam-width '>
                                 <div>
                                     <h5 className='text-capitalize mb-3 product-heading'>(product35) sample - clothing and accessories boutiques for sale</h5>
                                     <div className='d-flex text-size'>
@@ -172,7 +172,7 @@ const ProductDetailPage = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12 p-0 main-color">
-                            <img src="/assets/img/product.png" className='img-fluid w-100 sm-padding' alt="" />
+                            <img src="/assets/img/product.png" className='img-fluid w-100 sm-set-images' alt="" />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 owl-carousel">
                             <div className=' text-look-margin'>

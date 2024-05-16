@@ -10,12 +10,7 @@
     padding: 0px;
   }
   
-  .a-white{
-    color: white;
-  }
-  .a-black{
-    color: black;
-  }
+  
   :root{
     --bg-color-black:#000000;
     --bg-color-black-light:#00000080;

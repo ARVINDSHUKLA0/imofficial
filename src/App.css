@@ -9,6 +9,13 @@
     margin: 0px;
     padding: 0px;
   }
+  
+  .a-white{
+    color: white;
+  }
+  .a-black{
+    color: black;
+  }
   :root{
     --bg-color-black:#000000;
     --bg-color-black-light:#00000080;
@@ -499,6 +506,31 @@
 .small-img{
   padding: 0px 1px ;
 }
+ .size-imges{
+  height: 70px;
+  width: 70px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: relative;
+ }
+ .size-imges img{
+  border-radius: 50%;
+  padding: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-53%,-51%);
+ 
+  margin: 1px;
+ }
+ .size-border-color{
+  border: 1px solid gray;
+ }
+ input{
+   height: 15px;
+   border: none;
+ }
+ 
 @media(min-width: 0px) and (max-width: 525px) {
   .custam-width{
     width: 300px;
@@ -518,6 +550,15 @@
 .sm-padding{
   padding: 0px 20px;
 }
+.product-heading{
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+ .btn-width{
+  width: 100%; 
+  margin-bottom: 5px;
+ }
 
 }
 
@@ -534,6 +575,10 @@
     margin-top: 40px;
     margin-bottom:60px;
   }
+  .btn-width{
+    width: 100%; 
+    margin-bottom: 5px;
+   }
 }
 @media(min-width: 769px) and (max-width:1024px) {
   .owl-carousel-postion{
@@ -545,6 +590,10 @@
     margin-top: 70px;
     margin-bottom: 90px;
   }
+  .btn-width{
+    width: 100%; 
+    margin-bottom: 5px;
+   }
 }
 
 @media(min-width: 1025px) and (max-width:1440px) {
@@ -552,5 +601,9 @@
     margin-top: 70px;
     margin-bottom: 90px;
   }
+  .btn-width{
+    width: 100%; 
+    margin-bottom: 5px;
+   }
 }
 

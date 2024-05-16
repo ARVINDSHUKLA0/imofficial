@@ -7,7 +7,7 @@ const ProductDetailPage = () => {
 
         <>
 
-            <div className='bg-dark py-5'>
+            <div className='main-color pt-3 pb-5'>
                 <Navbar />
             </div>
 
@@ -42,39 +42,67 @@ const ProductDetailPage = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-                            <div className=' d-flex justify-content-between align-items-center py-1 mt-5 '>
-                                <h5 className='text-capitalize landry-text m-0'>landry coat</h5>
-                                <Link className='text-muted' to="#"><i class="fa-regular fa-bookmark"></i></Link>
-                            </div>
-                            <span><p className='text-capitalize m-0 text-clor-maroom'>slik</p></span>
-                            <div className=' custam-width custam-width-border text-size py-3'>
-                                <p className='m-0 pb-2'>Colour: Deep Teal+light Sand+red Ochre (T1G4)</p>
-                                <div className='border-img Landry-iner-img py-1 mb-2'>
-                                    <Link to="#"> <img className='small-img' src="/assets/img/small.png" alt="" /></Link>
-                                </div>
-                            </div>
-                            <div className='d-flex justify-content-between custam-width  custam-width-border py-3'>
+                            <div className='custam-width'>
                                 <div>
-                                    <Link className='text-capitalize text-decoration-none text-clor-maroom' to="#">select size</Link>
+                                    <h5 className='text-capitalize mb-3 product-heading'>(product35) sample - clothing and accessories boutiques for sale</h5>
+                                    <div className='d-flex text-size'>
+                                        <h5 className='px-2 text-clor-maroom'><i className="fa-solid fa-fire-flame-curved"></i></h5>
+                                        <p className='text-clor-maroom font-size mb-3'>12 sold in last 15 hours</p>
+                                    </div>
+                                    <div>
+                                        <p className='mb-2'>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. pellentesque diam dolor, elementum etos lobortis...</p>
+                                        <p className='text-capitalize mb-2'>vendor : &nbsp;  collette</p>
+                                        <p className='text-capitalize mb-2'>SKU :&nbsp;  W0690048</p>
+                                        <p className='text-capitalize mb-2'>availability :&nbsp;  in stock</p>
+                                        <p className='text-capitalize mb-2'>product type : &nbsp;  dincidunteros</p>
+                                        <h5 className='mb-2'>$48.99</h5>
+                                        <p className='text-clor-maroom mb-2'>Please hurry! Only 10 left in stock </p>
+                                        <div className='mb-2'>
+                                        <input className='w-100'type="color"name="colorPicker" value="#9D5248"></input>
+                                        </div>
+                                        <p className='text-capitalize'>color: darkorange</p>
+                                        <div className='d-flex gap-3'>
+                                            <div className='size-imges'>
+                                                <img src="/assets/img/small-1.png" className='' alt="" />
+                                            </div>
+                                            <div className='size-imges'>
+                                                <img src="/assets/img/small-1.png" className='' alt="" />
+                                            </div>
+                                            <div className='size-imges'>
+                                                <img src="/assets/img/small-1.png" className='' alt="" />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className='text-capitalize'>size: xs</p>
+                                            <div className='d-flex gap-3'>
+                                                 <div className='px-3 py-1 border border-dark'>
+                                                     <h5 className='text-uppercase'>xs</h5>
+                                                 </div>
+                                                 <div className='px-3 py-1 size-border-color'>
+                                                     <h5 className='text-uppercase'>s</h5>
+                                                 </div>
+                                                 <div className='px-3 py-1 size-border-color'>
+                                                     <h5 className='text-uppercase'>m</h5>
+                                                 </div>
+                                                 <div className='px-3 py-1 size-border-color'>
+                                                     <h5 className='text-uppercase'>l</h5>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div className='row align-items-center mt-3 mb-3'>
+                                            <div className='col-lg-5 col-md-6 col-sm-6 col-12'>
+                                            <button className='px-4 py-2 sm-size text-capitalize size-border-color bg-dark text-white btn-width'>add to cart</button>
+                                            </div>
+                                            <div className='col-lg-5 col-md-6 col-sm-6 col-12'>
+                                            <button className='px-4 py-2 sm-size text-capitalize size-border-color bg-clor-maroom text-white btn-width'>buy now</button>
+                                            </div>
+                                        </div>
+                                       
+                                        
+                                    </div>
                                 </div>
-                                <div>
-                                    <span><i class="fa-solid fa-angle-right"></i></span>
-                                </div>
-                                <div>
-                                    <Link className='text-capitalize  text-clor-maroom' to="#">size guide</Link>
-                                </div>
-                            </div>
-                            <div className='custam-width-border custam-width'>
-                                <div className='pt-5 mb-3'>
-                                    <Link className='text-decoration-none' to="#"><div className='text-center bg-clor-maroom text-white w-100'><p className='m-0 border-top border-bottom py-2'>find in store</p></div></Link>
-                                </div>
-                                <div className='mb-3'> <span>You need help ? </span> <Link to="#" className='text-clor-maroom '>Contact us</Link></div>
-                                <div className='mt-5 mb-4'>
-                                    <p >Explore the captivating Tree of Life print with this piece, where lush florals offer soulful joy for seasonal renewal. This modern coat, made of</p>
-                                    <Link className='text-clor-maroom' to="#">Read more</Link>
-                                </div>
-                                <Link to="#" className='text-decoration-none text-muted'>
-                                    <div className='d-flex'>
+                                <Link to="#" className='text-decoration-none text-muted '>
+                                    <div className='d-flex mt-2'>
                                         <div className='new-custam-width-one custam-width-border'></div>
                                         <div className='new-custam-width-two custam-width-border  mx-2'></div>
                                         <div className='new-custam-width-three custam-width-border'></div>
@@ -169,17 +197,17 @@ const ProductDetailPage = () => {
                 </div>
             </section>
             <section className='main-color py-5'>
-                  <div className='py-5'>
-                      <h3 className='text-capitalize py-5 text-center text-recommendations'> our recommendations</h3>
-                  </div>
+                <div className='py-5'>
+                    <h3 className='text-capitalize py-5 text-center text-recommendations'> our recommendations</h3>
+                </div>
             </section>
             <section>
-                 <div className='text-center py-4 catgery-bg-color'>
-                     <Link to="#" className='text-capitalize text-decoration-none text-dark'>woman &nbsp; /  </Link>
-                     <Link to="#" className='text-capitalize text-decoration-none text-dark'> &nbsp; coats & capes  &nbsp;/</Link>
-                      <span className='text-capitalize '> &nbsp;landry coat</span>
+                <div className='text-center py-4 catgery-bg-color'>
+                    <Link to="#" className='text-capitalize text-decoration-none text-dark'>woman &nbsp; /  </Link>
+                    <Link to="#" className='text-capitalize text-decoration-none text-dark'> &nbsp; coats & capes  &nbsp;/</Link>
+                    <span className='text-capitalize '> &nbsp;landry coat</span>
 
-                 </div>
+                </div>
             </section>
 
             {/* end  */}

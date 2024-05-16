@@ -19,17 +19,17 @@ const Home = () => {
                         <ul className="d-flex p-0 m-0 gap-3">
                             <li>
                                 <a href="#">
-                                    <i className="fa-regular fa-heart text-white"> </i>
+                                    <i className="fa-regular fa-heart a-white "> </i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i className="fa-solid fa-cart-shopping text-white"></i>
+                                    <i className="fa-solid fa-cart-shopping a-white"></i>
                                 </a>
                             </li>
                             <li>
                                 <span onClick={() => { setSidebarActive(true) }}>
-                                    <i className="fa-solid fa-bars text-white"></i>
+                                    <i className="fa-solid fa-bars a-white"></i>
                                 </span>
                             </li>
                         </ul>

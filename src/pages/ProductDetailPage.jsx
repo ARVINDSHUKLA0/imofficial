@@ -57,9 +57,6 @@ const ProductDetailPage = () => {
                                         <p className='text-capitalize mb-2'>product type : &nbsp;  dincidunteros</p>
                                         <h5 className='mb-2'>$48.99</h5>
                                         <p className='text-clor-maroom mb-2'>Please hurry! Only 10 left in stock </p>
-                                        <div className='mb-2'>
-                                        <input className='w-100'type="color"name="colorPicker" value="#9D5248"></input>
-                                        </div>
                                         <p className='text-capitalize'>color: darkorange</p>
                                         <div className='d-flex gap-3'>
                                             <div className='size-imges'>

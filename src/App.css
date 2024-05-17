@@ -526,6 +526,10 @@
    border: none;
  }
  
+ .cutam-stkicky{
+   position: sticky;
+   top: 0px;
+ }
 @media(min-width: 0px) and (max-width: 525px) {
   .custam-width{
     width: 300px;

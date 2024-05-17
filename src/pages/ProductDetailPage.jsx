@@ -42,7 +42,7 @@ const ProductDetailPage = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 col-12 sm-size-padding ">
-                            <div className='custam-width '>
+                            <div className='custam-width cutam-stkicky '>
                                 <div>
                                     <h5 className='text-capitalize mb-3 product-heading'>(product35) sample - clothing and accessories boutiques for sale</h5>
                                     <div className='d-flex text-size'>
